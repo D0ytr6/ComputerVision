@@ -65,7 +65,7 @@ for i in range(FRAME_COUNT + 1):
 
     cv2.imshow("Output", output_image)
 
-    isWritten = cv2.imwrite("D:/LabVideo/Result/" + final_str, imgOut)
+    isWritten = cv2.imwrite("D:/LabVideo/Result/" + final_str, output_image)
 
     if isWritten:
         print('Image is successfully saved as file.')
