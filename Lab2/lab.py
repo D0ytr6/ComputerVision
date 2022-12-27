@@ -48,7 +48,7 @@ if __name__ == '__main__':
     cv2.imshow('mask', mask)
     cv2.waitKey(0)
 
-    reform_mask = formMaskbyPerimetr(400, mask, contours, hierarchy)
+    reform_mask = formMaskbyPerimetr(800, mask, contours, hierarchy)
 
     cv2.imshow('Result', reform_mask)
     cv2.waitKey(0)

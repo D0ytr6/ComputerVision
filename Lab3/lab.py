@@ -73,6 +73,7 @@ def getTriangleCircleLine(vertical:list, horizontal: list, approx_polygons, shap
     return vertical_line, horizontal_line
 
 if __name__ == '__main__':
+
     # Конвертуємо в РГБ
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
